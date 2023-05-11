@@ -3,7 +3,10 @@ function CreateStudent(name,password) {
         name: name,
         password: password,
         email: name + "@gmail.com",
-        approvedCourses: []
+        approvedCourses: [],
+        newCourse: function newCourse(course) {
+            this.approvedCourses.push(course)
+        }
     }
 }
 function DarValorInput(id) {

@@ -28,6 +28,14 @@ input {
     font: white;
     color: white;
 }
+.cursos {
+    display: grid;
+    background-color: #081d38;
+    border: solid 5px rgb(14, 14, 48);
+}
+.cursos:hover{
+    border: solid 7px rgb(23, 23, 143);
+}
 #Mensajemalo {
     color: red;
     font-size: 10px;
@@ -75,6 +83,11 @@ button {
     justify-content: space-between;
     margin-top: 80px;
 }
+@media  only screen and (max-width: 1000px) {
+    .hacking-courses {
+        display: grid;
+    }
+}
 @media  only screen and (max-width: 1000px){
     .register-zone {
         padding: 5%;
@@ -86,6 +99,7 @@ button {
         background-repeat: repeat-y;
     }
 }
+
 @media  only screen and (max-width: 600px){
     .register-zone {
         padding: 15%;
