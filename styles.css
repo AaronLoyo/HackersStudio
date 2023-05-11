@@ -36,6 +36,11 @@ input {
 .cursos:hover{
     border: solid 7px rgb(23, 23, 143);
 }
+span {
+    font-size: 12px;
+    font-family: "Gill Sans";
+    color: green;
+}
 #Mensajemalo {
     color: red;
     font-size: 10px;
